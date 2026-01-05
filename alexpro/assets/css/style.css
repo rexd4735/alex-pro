@@ -1,0 +1,17 @@
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  body {
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  #masterWrap {
+    min-height: fit-content;
+    background-color: #020617;
+  }
+  
+  .table-row:nth-child(even) {
+    background-color: rgba(30, 41, 59, 0.4);
+  }
+  
